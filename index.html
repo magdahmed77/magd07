@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics (Placeholder Version) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD5BESM6XZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CD5BESM6XZ');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="css/line.css">
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="css/styles.css">
+    
+  <!-- Favicon Logo -->
+  <link rel="icon" href="images/logo.png" type="image/png">
+
+  <title>Portfolio Website</title>
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+      <nav class="nav container">
+          <a href="#" class="nav__logo">Abdelrhman Hazem Khalil</a>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list grid">
+                  <li class="nav__item">
+                      <a href="#home" class="nav__link active-link">
+                          <i class="uil uil-estate nav__icon"></i> Home
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#about" class="nav__link">
+                          <i class="uil nav__icon uil-user"></i> About
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#skills" class="nav__link">
+                          <i class="uil nav__icon uil-file-alt"></i> Skills
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#services" class="nav__link">
+                          <i class="uil nav__icon uil-briefcase-alt"></i> Services
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#projects" class="nav__link">
+                          <i class="uil nav__icon uil-scenery"></i> Projects
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#contact" class="nav__link">
+                          <i class="uil nav__icon uil-message"></i> Contact
+                      </a>
+                  </li>
+              </ul>
+              <i class="uil uil-times nav__close" id="nav-close"></i>
+          </div>
+
+          <div class="nav__btns">
+              <!-- Theme change button -->
+              <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+              <div class="nav__toggle" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+          <div class="home__container container grid">
+              <div class="home__content grid">
+                  <div class="home__social">                            
+                      <a href="https://eg.linkedin.com/in/abdulrhman-khalil-04361a2b7" target="_blank" class="footer__social">
+                          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                      </a>
+                      <a href="https://huggingface.co/Abdel2001" target="_blank" class="footer__social">
+                          <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="width: 24px; height: 24px;">
+                      </a>
+                      <a href="https://github.com/Astro-5444" target="_blank" class="footer__social">
+                          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" style="width: 24px; height: 24px;">
+                      </a>
+                  </div>
+                  <div class="home__img">
+                      <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <mask id="mask0" mask-type="alpha">
+                              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                              130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                              97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                              0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"></path>
+                          </mask>
+                          <g mask="url(#mask0)">
+                              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                              165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                              129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                              -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"></path>
+
+                              <image class="home__blob-img" x="12" y="18" xlink:href="images/perfil.png"></image>
+                          </g>
+                      </svg>
+                  </div>
+                  
+                  <div class="home__data">
+                      <h1 class="home__title">Hi, I'm Abdelrhman Hazem Khalil</h1>
+                      <h3 class="home__subtitle">Mechatronics Engineering Undergraduate</h3>
+                      <p class="home__description">
+                          I am a Mechatronics Engineering student at Asia Pacific University, Malaysia with hands-on experience in machine vision, automation, and robotics. I have worked on real-time quality inspection systems and developed advanced vision algorithms.
+                      </p>
+                      <a href="#contact" class="button button--flex">
+                          Contact Me <i class="uil uil-message button__icon"></i>
+                      </a>
+                  </div>
+              </div>
+
+              <div class="home__scroll">
+                  <a href="#about" class="home__scroll-button button--flex">
+                      <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                      <span class="home__scroll-name">Scroll down</span>
+                      <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                  </a>
+              </div>
+          </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+  <h2 class="section__title">About Me</h2>
+  <span class="section__subtitle">My Introduction</span>
+
+  <div class="about__container container grid">
+    <img src="images/about.jpg" alt="Profile Image" class="about__img">
+
+    <div class="about__data">
+      <p class="about__description">
+        Mechatronics Engineering student at APU with 13+ projects spanning control engineering, 
+        automation, robotics, machine vision, and CAD/CAM. 
+        I have built systems ranging from EEG–EMG emotion detection for mental health 
+        to smart plant monitoring, industrial automated sorting systems, and grape disease inspection 
+        using machine vision intelligence, as well as advanced CAD/CAM simulations with FEA. <br><br>
+        Skilled in Python, ROS2, and SolidWorks. I focus on creating innovative, efficient solutions 
+        that bridge hardware and intelligent software.
+      </p>
+
+      <div class="about__info">
+        <div>
+          <span class="about__info-title">13+</span>
+          <span class="about__info-name">Projects <br> Completed</span>
+        </div>
+        <div>
+          <span class="about__info-title">1</span>
+          <span class="about__info-name">Internship <br> Experience</span>
+        </div>
+        <div>
+          <span class="about__info-title">3</span>
+          <span class="about__info-name">Fields <br> Focused</span>
+        </div>
+      </div>
+
+      <div class="about__buttons" style="display: flex; gap: 1rem;">
+        <a download="" href="assets/pdf/Abdullah-CV.pdf" class="button button--flex">
+          CV <i class="uil uil-download-alt button__icon"></i>
+        </a>
+        <a download="" href="assets/pdf/Completion_letter.pdf" class="button button--flex">
+          Completion Letter <i class="uil uil-download-alt button__icon"></i>
+        </a>				
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <span class="section__subtitle">My Technical Proficiencies</span>
+
+  <div class="skills__container container grid">
+    <div>
+      <!-- Programming Skills -->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="uil uil-brackets-curly skills__icon"></i>
+          <div>
+            <h1 class="skills__title">Programming Skills</h1>
+            <span class="skills__subtitle">Advanced vision algorithms &amp; software</span>
+          </div>
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python (Deep Learning, CV, Automation)</h3>
+              <span class="skills__number">90%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 90%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">C / C++ (Arduino, ESP32)</h3>
+              <span class="skills__number">80%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">MATLAB / Simulink</h3>
+              <span class="skills__number">75%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 75%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">OpenCV</h3>
+              <span class="skills__number">85%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">ROS2</h3>
+              <span class="skills__number">70%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 70%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Automation & Robotics -->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="uil uil-robot skills__icon"></i>
+          <div>
+            <h1 class="skills__title">Automation &amp; Robotics</h1>
+            <span class="skills__subtitle">Control systems &amp; simulation</span>
+          </div>
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">PLC & Industrial Automation</h3>
+              <span class="skills__number">80%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Robotics (ROS2, TurtleBot, Arms)</h3>
+              <span class="skills__number">75%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 75%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">IoT & Embedded Systems</h3>
+              <span class="skills__number">85%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Sensors & Actuators</h3>
+              <span class="skills__number">80%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 80%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!-- Design & Simulation -->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="uil uil-swatchbook skills__icon"></i>
+          <div>
+            <h1 class="skills__title">Design &amp; Simulation</h1>
+            <span class="skills__subtitle">CAD and system modeling</span>
+          </div>
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">SolidWorks</h3>
+              <span class="skills__number">85%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">FEA & Simulation</h3>
+              <span class="skills__number">80%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 80%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Simulink (Modeling)</h3>
+              <span class="skills__number">75%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 75%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Microsoft Programs -->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="uil uil-windows skills__icon"></i>
+          <div>
+            <h1 class="skills__title">Microsoft Programs</h1>
+            <span class="skills__subtitle">Office Suite &amp; Collaboration Tools</span>
+          </div>
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Word</h3>
+              <span class="skills__number">90%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 90%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Excel</h3>
+              <span class="skills__number">85%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 85%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">PowerPoint</h3>
+              <span class="skills__number">90%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 90%;"></span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <h3 class="skills__name">Microsoft Project</h3>
+              <span class="skills__number">75%</span>
+            </div>
+            <div class="skills__bar">
+              <span class="skills__percentage" style="width: 75%;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+		    <!--==================== SWOT ANALYSIS ====================-->
+		   <section class="swot section" id="swot">
+  <h2 class="section__title">SWOT Analysis</h2>
+  <span class="section__subtitle">Personal SWOT based on Projects & Skills</span>
+
+  <!-- Chart on top, centered -->
+  <div class="swot__chart">
+    <img src="images/swot-radar-chart.png"
+         alt="Radar chart of Skills and Program Outcomes"
+         class="swot__img">
+  </div>
+
+  <!-- Accordion grid -->
+  <div class="swot__container container grid">
+
+    <!-- Strengths -->
+    <div class="swot__content swot__close">
+      <div class="swot__header">
+        <h3 class="swot__block-title">Strengths 💪</h3>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <ul class="swot__list">
+        <li>Completed 13+ mechatronics projects in robotics, automation, vision, and CAD/CAM.</li>
+        <li>Strong in Python, C/C++, MATLAB, OpenCV, and ROS2.</li>
+        <li>Developed AI-driven systems like EEG–EMG emotion detection, grape disease inspection, and defect detection.</li>
+        <li>Capable of combining hardware design (SolidWorks, FEA) with intelligent software.</li>
+        <li>Fast learner, adaptable, and motivated to tackle complex challenges.</li>
+      </ul>
+    </div>
+
+    <!-- Weaknesses -->
+    <div class="swot__content swot__close">
+      <div class="swot__header">
+        <h3 class="swot__block-title">Weaknesses ⚠️</h3>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <ul class="swot__list">
+        <li>Still building industry-scale experience beyond academic projects and internships.</li>
+        <li>Need to improve ROS2 and PLC automation skills (crucial for advanced robotics).</li>
+        <li>Time management can be challenging when handling multiple projects simultaneously.</li>
+        <li>Leadership and project management require more practice.</li>
+      </ul>
+    </div>
+
+    <!-- Opportunities -->
+    <div class="swot__content swot__close">
+      <div class="swot__header">
+        <h3 class="swot__block-title">Opportunities 🚀</h3>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <ul class="swot__list">
+        <li>Industry 4.0 and smart factory growth creates demand for my automation and robotics skills.</li>
+        <li>Application of projects in healthcare, agriculture, and industrial automation.</li>
+        <li>Opportunities to earn certifications, join research, and compete internationally.</li>
+        <li>Hackathons and collaborations help expand creativity and network.</li>
+        <li>Potential to turn academic projects into entrepreneurial real-world solutions.</li>
+      </ul>
+    </div>
+
+    <!-- Threats -->
+    <div class="swot__content swot__close">
+      <div class="swot__header">
+        <h3 class="swot__block-title">Threats ⚡</h3>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <ul class="swot__list">
+        <li>Highly competitive engineering job market.</li>
+        <li>Rapid changes in AI, robotics, and automation require continuous upskilling.</li>
+        <li>Limited access to industrial-grade labs and hardware could slow large-scale experiments.</li>
+        <li>Weak project-management habits could impact bigger, multi-disciplinary projects.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+      <!--==================== QUALIFICATION ====================-->
+     <section class="qualification section">
+  <h2 class="section__title">Qualification</h2>
+  <span class="section__subtitle">My personal journey</span>
+
+  <div class="qualification__container container">
+    <div class="qualification__tabs">
+      <div class="qualification__button button--flex qualification__active" data-target="#education">
+        <i class="uil uil-graduation-cap qualification__icon"></i>
+        Education
+      </div>
+      <div class="qualification__button button--flex" data-target="#work">
+        <i class="uil uil-briefcase-alt qualification__icon"></i>
+        Work
+      </div>
+    </div>
+
+    <div class="qualification__sections">
+      <!-- Education Tab -->
+      <div class="qualification__content qualification__active" data-content id="education">
+
+        <!-- Bachelor -->
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Bachelor of Engineering (Hons.) in Mechatronic Engineering</h3>
+            <span class="qualification__subtitle">Asia Pacific University of Technology & Innovation (APU), Kuala Lumpur, Malaysia</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Sep 2021 – Present
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+        </div>
+
+        <!-- High School -->
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">High School Certificate</h3>
+            <span class="qualification__subtitle">International Modern Arabic School (IMAS), Kuala Lumpur, Malaysia</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Oct 2015 – Sep 2018
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+        </div>
+
+        <!-- Secondary -->
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Secondary School</h3>
+            <span class="qualification__subtitle">American Model School, Sana’a, Yemen</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Sep 2012 – Oct 2015
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+        </div>
+
+        <!-- Primary -->
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Primary School</h3>
+            <span class="qualification__subtitle">American Model School, Sana’a, Yemen</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Jul 2007 – Aug 2012
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work Tab -->
+      <div class="qualification__content" data-content id="work">
+
+        <!-- Internship -->
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Engineering Technical Assistant (Internship)</h3>
+            <span class="qualification__subtitle">Al-Nokhbah University, Sana’a, Yemen</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Oct 2024 – Jan 2025
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+          <h2 class="section__title">Services</h2>
+          <span class="section__subtitle">What I Offer</span>
+          
+          <div class="services__container container grid">
+              <!-- SERVICE 1 -->
+              <div class="services__content">
+                  <div>
+                      <i class="uil uil-web-grid services__icon"></i>
+                      <h3 class="services__title">Machine Vision<br>Engineer</h3>
+                  </div>
+                  <span class="button button--flex button--small button--link services__button">
+                      View More
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  
+                  <div class="services__modal">
+                      <div class="services__modal-content">
+                          <h4 class="services__modal-title">Machine Vision<br>Engineer</h4>
+                          <i class="uil uil-times services__modal-close"></i>
+                          
+                          <ul class="services__modal-services grid">
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Develop real-time quality inspection systems.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Implement and optimize vision algorithms using OpenCV and MediaPipe.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Integrate industrial cameras with production lines.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Adjust lighting and thresholds for defect detection.</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <!-- SERVICE 2 -->
+              <div class="services__content">
+                  <div>
+                      <i class="uil uil-arrow services__icon"></i>
+                      <h3 class="services__title">Automation &amp;<br>Robotics Engineer</h3>
+                  </div>
+                  <span class="button button--flex button--small button--link services__button">
+                      View More
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  
+                  <div class="services__modal">
+                      <div class="services__modal-content">
+                          <h4 class="services__modal-title">Automation &amp;<br>Robotics Engineer</h4>
+                          <i class="uil uil-times services__modal-close"></i>
+                          
+                          <ul class="services__modal-services grid">
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Design automation systems and control solutions.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Develop and simulate robotic systems using ROS 2 and Gazebo.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Integrate microcontrollers like Arduino and ESP32.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Collaborate on cross-functional engineering projects.</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <!-- SERVICE 3 -->
+              <div class="services__content">
+                  <div>
+                      <i class="uil uil-pen services__icon"></i>
+                      <h3 class="services__title">Mechatronics<br>Designer</h3>
+                  </div>
+                  <span class="button button--flex button--small button--link services__button">
+                      View More
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  
+                  <div class="services__modal">
+                      <div class="services__modal-content">
+                          <h4 class="services__modal-title">Mechatronics<br>Designer</h4>
+                          <i class="uil uil-times services__modal-close"></i>
+                          
+                          <ul class="services__modal-services grid">
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Design mechanical components using SolidWorks.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Develop and simulate systems with CX Designer and CX Programmer.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Optimize designs for performance and efficiency.</p>
+                              </li>
+                              <li class="services__modal-service">
+                                  <i class="uil uil-check-circle services__modal-icon"></i>
+                                  <p>Create prototypes for innovative automation.</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+     <section class="projects section" id="projects">
+  <h2 class="section__title">Projects</h2>
+  <span class="section__subtitle">Highlighted Work</span>
+
+  <div class="portfolio__container container swiper-container">
+    <div class="swiper-wrapper">
+
+      <!-- Project 1: Final Year Project -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/fyp.jpg" alt="Emotion Detection System" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Emotion Detection Using EEG & EMG (FYP)</h3>
+          <p class="portfolio__description">
+            Developed a non-invasive system combining EEG & EMG signals with a hybrid CNN-LSTM deep learning model.
+            Built a custom Python GUI to visualize emotional states (Valence, Arousal, Dominance) in real time for mental health monitoring.
+          </p>
+          <!-- Example GitHub or demo link -->
+          <a href="https://github.com/your-fyp-repo" target="_blank" class="button button--flex button--small portfolio__button">
+            GitHub Repo <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2: Vision-Based Grape Disease Inspection -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/grape.jpg" alt="Vision-Based Grape Disease Inspection" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Vision-Based Grape Disease Inspection</h3>
+          <p class="portfolio__description">
+            Built a grape disease detection system using OpenCV (HSV segmentation) and YOLOv8 AI.  
+            Detected Black Rot, Powdery Mildew, and Bitter Rot with real-time bounding box labeling for agricultural quality control.
+          </p>
+          <a href="https://github.com/your-grape-repo" target="_blank" class="button button--flex button--small portfolio__button">
+            GitHub Repo <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3: ROS2 TurtleBot Navigation -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/turtlebot.jpg" alt="ROS2 TurtleBot Navigation" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">ROS2 TurtleBot3 Navigation</h3>
+          <p class="portfolio__description">
+            Implemented autonomous navigation using ROS2 Nav2.  
+            Designed costmap filters for keep-out zones with LiDAR-based mapping and dynamic obstacle avoidance.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 4: Automated Plant Watering -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/plant.jpg" alt="Automated Plant Monitoring" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Automated Plant Watering & Monitoring</h3>
+          <p class="portfolio__description">
+            Arduino & ESP32-based IoT system for soil moisture, temperature, humidity, and light monitoring.  
+            Automated water pump and fan control, with LCD display and remote access via serial/ESP32.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 5: IoT-Based Parkinson’s Monitoring -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/parkinson.jpg" alt="IoT Parkinson’s Disease Monitoring" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">IoT-Based Parkinson’s Disease Monitoring</h3>
+          <p class="portfolio__description">
+            Developed a wearable prototype integrating MPU6050, EMG, flex sensors, and MAX30102 for real-time symptom monitoring.  
+            Designed modular 3D-printed TPU enclosure and implemented data acquisition with ESP32.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 6: Crankshaft FEA -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/crankshaft.jpg" alt="Crankshaft FEA" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Crankshaft Design & Finite Element Analysis</h3>
+          <p class="portfolio__description">
+            Modeled and analyzed a crankshaft in SolidWorks.  
+            Performed stress, modal, and thermal FEA simulations with Cast Iron vs Steel vs Forged Steel.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 7: Hydroponics Monitoring System -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/hydroponics.jpg" alt="Hydroponics Monitoring" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Hydroponics Monitoring System</h3>
+          <p class="portfolio__description">
+            Built a C program to monitor pH, temperature, humidity, and water levels.  
+            Added automated adjustments and data logging to optimize smart farming efficiency.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 8: Offshore Wind Turbine Simulation -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="images/windturbine.jpg" alt="Offshore Wind Turbine Simulation" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Offshore Wind Turbine Simulation</h3>
+          <p class="portfolio__description">
+            Designed a LabVIEW simulation of offshore wind turbines with real-time monitoring,  
+            automatic control, and performance analysis for renewable energy research.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+              
+              <!-- Swiper Navigation Elements -->
+              <div class="swiper-button-next">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+              </div>
+              <div class="swiper-button-prev">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+              </div>
+              
+              <div class="swiper-pagination"></div>
+          </div>
+      </section>
+
+      <!--==================== VIDEO MODAL ====================-->
+      <div id="videoModal" class="video-modal" style="display: none;">
+        <div class="video-modal-content">
+          <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+          <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- JavaScript for Video Modal -->
+      <script>
+        function openVideoModal(videoURL) {
+          document.getElementById('videoFrame').src = videoURL;
+          document.getElementById('videoModal').style.display = "block";
+        }
+        function closeVideoModal() {
+          document.getElementById('videoModal').style.display = "none";
+          document.getElementById('videoFrame').src = "";
+        }
+        // Close the modal if user clicks outside of the modal content
+        window.onclick = function(event) {
+          var modal = document.getElementById('videoModal');
+          if (event.target === modal) {
+            closeVideoModal();
+          }
+        }
+      </script>
+
+    
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+  <h2 class="section__title">Contact Me</h2>
+  
+  <div class="contact__container container">
+    <div class="contact__info">
+      
+      <!-- Phone -->
+      <p>
+        <i class="uil uil-phone"></i> 
+        <span>+60 18-320 0945</span>
+      </p>
+      
+      <!-- Email -->
+      <p>
+        <i class="uil uil-envelope"></i> 
+        <a href="mailto:majdalsharabi5544@gmail.com">majdalsharabi5544@gmail.com</a>
+      </p>
+      
+      <!-- Location -->
+      <p>
+        <i class="uil uil-map-marker"></i> 
+        <span>Malaysia</span>
+      </p>
+      
+      <!-- LinkedIn -->
+      <p>
+        <i class="uil uil-linkedin"></i> 
+        <a href="https://www.linkedin.com/in/magd-ahmed-673b36309" target="_blank">LinkedIn</a>
+      </p>
+      
+      <!-- GitHub -->
+      <p>
+        <i class="uil uil-github"></i> 
+        <a href="https://github.com/magdahmed77/magd07" target="_blank">GitHub</a>
+      </p>
+      
+    </div>
+  </div>
+</section>
+
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+      <div class="footer__bg">
+          <div class="footer__container container grid">
+              <div>
+                  <h1 class="footer__title">Magd Ahmed</h1>
+                  <span class="footer__subtitle">Mechatronics Engineering Undergraduate</span>
+              </div>
+
+              <ul class="footer__links">
+                  <li>
+                      <a href="#services" class="footer__link">Services</a>
+                  </li>
+                  <li>
+                      <a href="#projects" class="footer__link">Projects</a>
+                  </li>
+                  <li>
+                      <a href="#contact" class="footer__link">Contact</a>
+                  </li>
+              </ul>
+
+        <div class="footer__socials">
+          <a href="https://eg.linkedin.com/in/abdulrhman-khalil-04361a2b7" target="_blank" class="footer__social">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 24px; height: 24px; filter: brightness(0) invert(1);">
+          </a>
+          <a href="https://huggingface.co/Abdel2001" target="_blank" class="footer__social">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="width: 24px; height: 24px;"">
+          </a>
+          <a href="https://github.com/Astro-5444" target="_blank" class="footer__social">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" style="width: 24px; height: 24px; filter: brightness(0) invert(1);">
+          </a>
+        </div>
+
+              <p class="footer__copy">© magd-ahmed. All right reserved</p>
+          </div>
+      </div>
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!--==================== MAIN JS ====================-->
+  <script src="js/main.js"></script>
+</body>
+</html>
